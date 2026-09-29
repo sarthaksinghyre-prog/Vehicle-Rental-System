@@ -1,0 +1,37 @@
+[
+    {
+        "vehicle_id": "V101",
+        "name": "Maruti Swift",
+        "vehicle_type": "Car",
+        "price": 1800,
+        "available": true
+    },
+    {
+        "vehicle_id": "V102",
+        "name": "Hyundai i20",
+        "vehicle_type": "Car",
+        "price": 2000,
+        "available": true
+    },
+    {
+        "vehicle_id": "V103",
+        "name": "Honda City",
+        "vehicle_type": "Car",
+        "price": 2800,
+        "available": true
+    },
+    {
+        "vehicle_id": "V104",
+        "name": "Royal Enfield",
+        "vehicle_type": "Bike",
+        "price": 900,
+        "available": true
+    },
+    {
+        "vehicle_id": "V105",
+        "name": "Honda Activa",
+        "vehicle_type": "Scooter",
+        "price": 500,
+        "available": true
+    }
+]

@@ -1,0 +1,15 @@
+def make_receipt(bill):
+    text = ""
+    text += "VEHICLE RENTAL RECEIPT\n"
+    text += "------------------------------\n"
+    text += f"Customer : {bill['customer']}\n"
+    text += f"Phone    : {bill['phone']}\n"
+    text += f"Vehicle  : {bill['vehicle']}\n"
+    text += f"ID       : {bill['vehicle_id']}\n"
+    text += f"Days     : {bill['days']}\n"
+    text += f"Price/Day: Rs. {bill['price_per_day']:.2f}\n"
+    text += f"Amount   : Rs. {bill['amount']:.2f}\n"
+    text += f"Discount : Rs. {bill['discount']:.2f}\n"
+    text += f"Total    : Rs. {bill['total']:.2f}\n"
+    text += "------------------------------"
+    return text
